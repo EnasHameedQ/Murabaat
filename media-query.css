@@ -580,7 +580,7 @@ padding-bottom: 10px;
 
 /*in b3 this sizesfrom 0 _767 xs  but b4 its small screen first problem   749, 767 768 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media  (min-width:576px ) and (max-width:767px )
+@media  (min-width:576px ) and (max-width:766px )
 {
    #fullpage section {  height:auto; overflow: hidden;margin-right: 5px;}
   .form-inline .form-control {
@@ -913,7 +913,7 @@ padding-bottom: 10px;
 /*mediam screen has problem from size 768_772
 not perfect  nav
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-@media  (min-width:768px ) and (max-width:991px )
+@media  (min-width:767px ) and (max-width:991px )
 {
   *{
     margin: 0px;
