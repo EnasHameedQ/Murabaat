@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!Doctype html>
 <html>
 
@@ -603,3 +604,565 @@
 </body>
 
 </html>
+=======
+<!Doctype html>
+<html >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+-->
+
+
+<!--    fontawesome  -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+
+     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/media-query.css" />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS,  scroll    -->
+
+      <script src="js/jquery-3.5.1.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+                   <!--scroll  -->
+
+              <script src="js/jquery.fullpage.min.js"></script>
+                <!--<script src="js\murbaat.js"></script>-->
+
+    <title>منصة مربعات التعليمية</title>
+  </head>
+  <body >
+
+
+
+
+<!-- <script src="js/murbaat.js"></script>-->
+
+<div id="fullpage" >
+ <!-- start container nav -->
+<header>
+  <nav id="navbar" class="navbar  fixed-top navbar-expand-md navbar-light  navbar-right ">  <!--  navbar-expand-md مهم لعرض مكونات المنيو في الشاشات الكبيرة والمتوسطة-->
+    <!--navbar-light مهن لعرض اقونة  البرقر في الشاشات الصغيرة --> <!-- bg-light للخلفية الرمادي بدل الديفولت سوداء     / navbar-right اتجاه المنيو-->
+
+    <a class="navbar-brand" href="#">
+      <img class="img-responsive"src="imges/logo1.png" >
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button><!-- burger icon only in mobil   -->
+
+   <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+     <ul class="navbar-nav ">
+       <li class="nav-item active">
+         <a class="nav-link" href="#steps">   <i class="material-icons float-right  &#xf0c8;" style='background-color: #FCC01A;'></i> الرئيسية <span class="sr-only">(current)</span></a>
+       </li>
+<!-- in <svg>  you can change color   fill="currentColor"    fill="#e63916"   currentColor mains baisk color of div -->
+    <a  href="#edutrack">  <li class="nav-item dropdown"></a>
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <i class="material-icons float-right  &#xf0c8;" style='background-color: #E63916;'></i>جهات تعليم
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#" > جامعات حكومية </a>
+           <a class="dropdown-item" href="#"> جامعات خاصة </a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">  معاهد</a>
+         </div>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <i class="material-icons float-right  &#xf0c8;" style='background-color:#a7264d ;'></i>مجالات تعليم
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+           <a class="dropdown-item" href="#">حاسوب</a>
+           <a class="dropdown-item" href="#">تجارة</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#"> طبية</a>
+          <a class="dropdown-item" href="#"> مختبرات </a>
+         </div>
+       </li>
+
+       <li class="nav-item">
+         <a  class="nav-link" href="#murabaat" >  <i class="material-icons float-right  &#xf0c8;" style='background-color: #EA630D;'></i> عن مربعات     </a>
+       </li><!--
+       <li class="nav-item ">
+         <a class="nav-link"  href="#call" ><i class='material-icons  float-right  &#xf0c8;' style='background-color: #A01A19;'></i> تواصل معنا </a>
+       </li>-->
+
+        <li >
+          <form class="form-inline">
+
+              <span  id="search-btn" class="fa fa-search form-control-feedback"></span>
+              <div  id="search-container" class="form-group has-search">
+
+              <input  id="search" class="form-control mr-sm-2" type="search" placeholder="بحث عن مجالات وجهات " aria-label="Search">
+              </div>
+
+            </form>
+            <script>
+            var searchInput = $("#search-container");//الديف الاساسي للمحتو الي عيختفي حسب الدالة
+//الدالة تم تخزينها في متغير ,والتي عملها اظهارالمحتوى المخفيفي حالة كان متاح يكون تركيز عليه
+
+            var showSearchInput = function() {
+            searchInput.show()// مكانه نفعل دالة تدور الاقونة
+            if(searchInput.is(":visible")) {
+              $("#search").focus();
+            }
+            };
+            $("#search-btn").hover(showSearchInput);//استدعينا الايقونة الظاهرة عند الهوفر تستدعي الدالة للتحقق
+
+            searchInput.focusout(function(e) {//الغاء التركيز على الدالة
+            searchInput.hide();//;اخفاء المحتوى,  مكانة نعمل دالة ترجع الايقونة لحالتها الطبيعي
+
+            });
+          </script>
+
+               </li>
+       <li>
+
+       <button class="btn btn-warnings my-2 my-sm-0" type="submit">ابدأ الان</button>
+     </li>
+  <!--   <li>
+    <button class="btn btn-outline-success " type="submit"> الدخول</button>
+   </li>
+-->
+   <li>
+   <button class="Language" type="submit"> En</button>
+ </li>
+
+     </ul>
+
+</div>
+
+ </nav>
+</header>
+<!-- start container study&join now -->
+<section id="join" class="container-fluid">
+	<div class="row">
+
+        <div id="join1" class="col-md-6">
+         <a href="#" class="join-now">   <h2>  إلتحق الأن </h2></a>
+         <p class="lead " >اختر المربع المناسب لك ..وطور مهاراتك</p>
+       <div class="card" >
+        <a href="#">   <img src="imges/program.png" class="card-img-top" alt="..." >
+         <p class="card-text">عرض جميع الجهات التعليمية</p></a>
+      </div>
+      <div class="card" >
+       <a href="#">   <img src="imges/program.png" class="card-img-top" alt="..." >
+         <p class="card-text">عرض جميع الجهات التعليمية</p></a>
+        </div>
+
+     </div>
+     <div  class="col-md-6 ">
+           <img id="study" class="img-responsive"  src="imges/study.png" alt="study" />
+           <!-- mayby make an animation   //--><!-- its important to write height&width her then in css make width:100%; height:auto; to be responsive -->
+         </div>
+  </div>
+
+
+</section>
+
+<div class="container-fluid">
+<div  class="grad mr-auto ">
+
+</div>
+</div>
+<!-- end container study&join now-->
+
+<!-- start container steps -->
+<section id="steps" class="container-fluid">
+
+    <h4>خطوات بسيطة للتعلم عن بعد </h4>
+<div class="row">
+  <div class="col-md-3">
+    <img class="steps"  src="imges/step1.png" alt="study"  />
+   <div class="step1">
+     <h5 class="step0">اختر الجهة او المجال المناسب </h5>
+       <img  src="imges/avatar1.png" alt="study"  />
+        <p> {إِنَّ الدِّينَ عِندَ اللّهِ الإِسْلاَمُ وَمَا اخْتَلَفَ الَّذِينَ أُوْتُواْ الْكِتَابَ إِلاَّ مِن بَعْدِ مَا جَاءهُمُ الْعِلْمُ بَغْياً بَيْنَهُمْ وَمَن يَكْفُرْ بِآيَاتِ اللّهِ فَإِنَّ اللّهِ سَرِيعُ الْحِسَابِ }آل عمران19
+                  {وَمَن يَبْتَغِ غَيْرَ الإِسْلاَمِ دِيناً فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِي الآخِرَةِ مِنَ الْخَاسِرِينَ }آل عمران85
+        </p>
+    </div>
+
+  </div >
+
+
+  <div class="col-md-6 col-12" >
+
+    <img class="stepsd" src="imges/step2d.png" alt="study"  />
+
+      <h5 class="step00">طريقتان للتعلم </h5>
+
+    <div class="row align-items-center">
+        <div class="col-md-6 ">
+          <div class="step2">
+
+            <h6> التعلم المباشر</h6>
+            <p>الوحدة مؤلمة لكنّها أفضل من أن يتذكرك الآخرون في وقت فراغهم.
+اصنع لنفسك أياماً جميلة ولا تنتظر جمال أيامك من أحد.
+إذا صلح حالك مع الله صلحت أحوالك مع الناس.
+من السهل أن تجد شخصاً تتحدث إليه، لكن من الصعب أن تجد شخصاً تثق به.
+</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="step2">
+            <h6> التعلم اون لاين</h6>
+             <p>الوحدة مؤلمة لكنّها أفضل من أن يتذكرك الآخرون في وقت فراغهم.
+اصنع لنفسك أياماً جميلة ولا تنتظر جمال أيامك من أحد.
+إذا صلح حالك مع الله صلحت أحوالك مع الناس.
+من السهل أن تجد شخصاً تتحدث إليه، لكن من الصعب أن تجد شخصاً تثق به.
+</p>
+           </div>
+        </div>
+      </div >
+
+        </div>
+
+
+<div class="col-md-3 ">
+
+  <img class="steps"  src="imges/step3.png" alt="study"  />
+
+ <div class="step1">
+    <h5 class="step0">الاختبار والحصول على الشهادة </h5>
+     <img  src="imges/certificate.jpg" alt="study"  />
+      <p> {إِنَّ الدِّينَ عِندَ اللّهِ الإِسْلاَمُ وَمَا اخْتَلَفَ الَّذِينَ أُوْتُواْ الْكِتَابَ إِلاَّ مِن بَعْدِ مَا جَاءهُمُ الْعِلْمُ بَغْياً بَيْنَهُمْ وَمَن يَكْفُرْ بِآيَاتِ اللّهِ فَإِنَّ اللّهِ سَرِيعُ الْحِسَابِ }آل عمران19
+                {وَمَن يَبْتَغِ غَيْرَ الإِسْلاَمِ دِيناً فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِي الآخِرَةِ مِنَ الْخَاسِرِينَ }آل عمران85
+                </div>
+</div >
+</div>
+
+</section>
+<div class="container-fluid">
+<div  class="grad mr-auto ">
+
+</div>
+</div>
+<!-- end container steps -->
+
+<!-- start container slider-->
+   <section  id="slider" class="container-fluid">
+     <!-- Slideshow container -->
+      <h4>اهم الكرسات  </h4>
+      <h4 class="seeall">  <a href="#">عرض الكل</a>  </h4>
+     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+         <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+         <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+         <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+       </ol>
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <p >  دورات شهرية</p>
+        <div class="card1" >
+          <div>
+        <a href="#">   <img src="imges/program.png" class="card1-img-top" alt="...">
+          <p class="cardname2"> البرمجة</p></a>
+             <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+        <a href="#" class="btn btn-warning ">اضافة</a>
+    </div>
+         </div>
+         <div class="card1" >
+         <div>
+           <a href="#">   <img src="imges/logo.png" class="card1-img-top" alt="...">
+             <p class="cardname2"> البرمجة</p>
+              <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+         <a href="#" class="btn btn-warning ">اضافة</a>
+          </div>
+        </div>
+       </div>
+         <div class="carousel-item">
+              <p >ابرز دورات  معهد يالي </p>
+           <div class="card1" >
+             <div>
+           <a href="#">   <img src="imges/program.png" class="card1-img-top" alt="...">
+             <p class="cardname2"> البرمجة</p>
+                <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+         <a href="#" class="btn btn-warning ">اضافة</a>
+       </div>
+            </div>
+            <div class="card1" >
+            <div>
+              <a href="#">   <img src="imges/logo.png" class="card1-img-top" alt="...">
+                <p class="cardname2"> البرمجة</p>
+                 <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+            <a href="#" class="btn btn-warning ">اضافة</a>
+             </div>
+           </div>
+           </div>
+         <div class="carousel-item">
+              <p >افتتاح كلية المولتي ميديا في جامعة </p>
+           <div class="card1" >
+             <div>
+           <a href="#">   <img src="imges/collagIcon.png" class="card1-img-top" alt="..." >
+             <p class="cardname2"> البرمجة</p>
+                <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+         <a href="#" class="btn btn-warning ">اضافة</a>
+            </div>
+          </div>
+         </div>
+         <div class="carousel-item">
+             <p >اكثر الدورات طلبا  </p>
+           <div class="card1" >
+                 <div>
+
+           <a href="#">   <img src="imges/step3.png" class="card1-img-top" alt="..." >
+             <p class="cardname2"> البرمجة</p>
+                <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+         <a href="#" class="btn btn-warning ">اضافة</a>
+            </div>
+          </div>
+
+
+            <div class="card1" >
+            <div>
+
+            <a href="#">   <img src="imges/logo.png" class="card1-img-top" alt="..." >
+              <p class="cardname2"> البرمجة</p>
+                 <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+          <a href="#" class="btn btn-warning ">اضافة</a>
+             </div>
+           </div>
+
+           </div>
+            <div class="carousel-item">
+                 <p >اكثر الدورات طلبا في البرمجة  </p>
+              <div class="card1" >
+              <div>
+
+              <a href="#">   <img src="imges/step1.png" class="card1-img-top" alt="..." >
+                <p class="cardname2"> البرمجة</p>
+                   <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+            <a href="#" class="btn btn-warning ">اضافة</a>
+               </div>
+             </div>
+
+               <div class="card1" >
+               <div>
+
+               <a href="#">   <img src="imges/logo.png" class="card1-img-top" alt="..." >
+                 <p class="cardname2"> البرمجة</p>
+                    <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+             <a href="#" class="btn btn-warning ">اضافة</a>
+                </div>
+              </div>
+
+                <div class="card1" >
+                <div>
+                  <a href="#">   <img src="imges/logo.png" class="card1-img-top" alt="...">
+                    <p class="cardname2"> البرمجة</p>
+                     <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+              <a href="#" class="btn btn-warning ">اضافة</a>
+                 </div>
+               </div>
+                 </div>
+                 <div class="carousel-item">
+                      <p >افتتاح دورات لغة الماني وصيني وفرنسي  </p>
+                   <div class="card1" >
+                   <div>
+                       <a href="#">   <img src="imges/step2.png" class="card1-img-top" alt="...">
+                         <p class="cardname2"> البرمجة</p>
+                        <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+                 <a href="#" class="btn btn-warning ">اضافة</a>
+                    </div>
+                  </div>
+
+                    <div class="card1" >
+                    <div>
+                    <a href="#">   <img src="imges/logo.png" class="card1-img-top" alt="..." >
+                      <p class="cardname2"> البرمجة</p>
+                         <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+                    <a href="#" class="btn btn-warning ">اضافة</a>
+                     </div>
+                   </div>
+
+                     <div class="card1" >
+                       <div>
+                     <a href="#">   <img src="imges/logo.png" class="card1-img-top" alt="..." >
+                       <p class="cardname2"> البرمجة</p>
+                          <p class="card1-text">عرض جميع الجهات التعليمية</p></a>
+                   <a href="#" class="btn btn-warning ">اضافة</a>
+                 </div>
+                      </div>
+                   </div>
+
+       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div>
+   </div>
+   </section>
+   <!-- end container slider -->
+
+   <!-- start container track & edu -->
+
+     <section id="edutrack" class="container-fluid">
+     <div class="row">
+
+   <!-- start of edu -->
+   <div id="edu" class="col-lg-6 col-md-12 col-sm-12 col-12 "  >
+     <div  class="col">
+       <h4> الجهات التعليمية</h4>
+     <h5>  <a href="#">عرض الكل</a>  </h5>
+  <div class="card2">
+   <a href="#">   <img src="imges/collagIcon.png" class="card2-img-top" alt="education">
+       <p class="cardname2"> البرمجة</p></a>
+     <a href="#"> <p class="card2-text">عرض جميع الجهات</p>
+     <a href="#" class="btn btn-warning ">اضافة</a>
+   </div>
+
+   <div class="card2" >
+   <a href="#"> <img src="imges/avatar1.png" class="card2-img-top"  alt="education">
+       <p class="cardname2"> البرمجة</p></a>
+    <p class="card2-text">عرض جميع الجهات </p></a>
+   <a href="#" class="btn btn-warning ">اضافة</a>
+   </div>
+
+   <div class="card2"  >
+   <a href="#">  <img src="imges/avatar1.png" class="card2-img-top"  alt="education">
+       <p class="cardname2"> البرمجة</p></a>
+       <a href="#"> <p class="card2-text">عرض جميع الجهات</p>
+       <a href="#" class="btn btn-warning ">اضافة</a>
+   </div>
+   <div class="card2" >
+   <a href="#"> <img src="imges/collagIcon.png" class="card2-img-top"  alt="education">
+       <p class="cardname2"> البرمجة</p></a>
+     <p class="card2-text">عرض جميع الجهات </p>
+      <a href="#" class="btn btn-warning ">اضافة</a>
+   </div>
+   </div>
+
+   </div><!-- end  of edu-->
+   <!-- start  of track -->
+   <div id="track" class=" col-lg-6 col-md-12 col-sm-12 col-12" >
+   <div  class="col" >
+     <h4>  المجالات التعليمية</h4>
+     <h5>  <a href="#">عرض الكل</a>  </h5>
+   <div class="card2">
+   <a href="#"> <img src="imges/program.png" class="card2-img-top" alt="...">
+     <p class="cardname2"> البرمجة</p></a>
+      <a href="#"> <p class="card2-text">عرض جميع الجهات </p>
+   <a href="#" class="btn btn-warning ">اضافة</a>
+   </div>
+
+   <div class="card2" >
+   <a href="#">   <img src="imges/step3.png" class="card2-img-top" alt="..." >
+     <p class="cardname2"> البرمجة</p></a>
+   <a href="#">    <p class="card2-text">عرض جميع الجهات </p></a>
+   <a href="#" class="btn btn-warning ">اضافة</a>
+   </div>
+
+   <div class="card2"  >
+   <a href="#">    <img src="imges/step2.png" class="card2-img-top" alt="..." >
+     <p class="cardname2"> البرمجة</p>
+   <a href="#">    <p class="card2-text">عرض جميع الجهات </p></a>
+    <a href="#" class="btn btn-warning ">اضافة</a>
+   </div>
+
+   <div class="card2" >
+   <a href="#">   <img src="imges/step1.png" class="card2-img-top" alt="..." >
+     <p class="cardname2"> البرمجة</p></a>
+   <a href="#">    <p class="card2-text">عرض جميع الجهات </p></a>
+    <a href="#" class="btn btn-warning ">اضافة</a>
+  </div>
+   </div>
+   </div><!-- end  of track -->
+   </div><!-- end  of row-->
+   </section>
+   <!-- end </section> track & edu -->
+
+
+<!-- start container murabaat  -->
+
+<section id="murabaat" class="container">
+  <img src="imges/logo.png" class="img-responsive" alt="logo" >
+  <p class="lead" >
+  للكلمات الجميلة وقع إيجابي على نفوسنا ولها أثر بالغ في حياتنا اليومية؛ فبعضها يمنحنا الأمل والتفاؤل، وبعضها يعلمنا حكماً مفيدة، وفي هذا المقال اخترنا لكم بعضاً من أجمل الكلمات القصيرة والرسائل والأشعار.
+  للكلمات الجميلة وقع إيجابي على نفوسنا ولها أثر بالغ في حياتنا اليومية؛ فبعضها يمنحنا الأمل والتفاؤل، وبعضها يعلمنا حكماً مفيدة، وفي هذا المقال اخترنا لكم بعضاً من أجمل الكلمات القصيرة والرسائل والأشعار.
+
+  </p>
+
+  <a href="#" class="join-now"><span>اقرأ اكثر </span></a>
+</section>
+
+<!-- end container murabaat -->
+
+</div><!--end fullpage -->
+<script type="text/javascript">
+  FastClick.attach(document.body);
+  $('#fullpag').fullpage();
+</script>
+<!-- start container footer-->
+
+<footer class="container-fluid" >
+    <div class="row">
+      <div class="col-6 col-md">
+        <img class="mb-2" src="imges/logo2.png" alt=""  >
+        <small class="d-block mb-3 text-muted">©2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>اختر جامعتك</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">جامعة صنعاء </a></li>
+          <li><a class="text-muted" href="#">جامعة العلوم والتكنولوجيا</a></li>
+          <li><a class="text-muted" href="#">جامعة المستقبل </a></li>
+          <li><a class="text-muted" href="#">الجامعة الوطنية</a></li>
+          <li><a class="text-muted" href="#">الجامعة البريطانية</a></li>
+          <li><a class="text-muted" href="#">الجامعة البنانية</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+           <h5> المجالات التعليمية</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">حاسوب</a></li>
+          <li><a class="text-muted" href="#">تجارة</a></li>
+          <li><a class="text-muted" href="#">زراعة</a></li>
+          <li><a class="text-muted" href="#">طب</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>عن مربعات</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">الفريق</a></li>
+          <li><a class="text-muted" href="#">الموقع</a></li>
+          <li><a class="text-muted" href="#">اعمالنا</a></li>
+          <li><a class="text-muted" href="#">ماذا قالوا عنا</a></li>
+        </ul>
+      </div>
+
+      <div id="call" class="col-6 col-md">
+        <h5>التواصل الإجتماعي</h5>
+
+
+    <a  href="#"><img src="imges/facebook.png" class="callUs"alt="facebook" height="20px" width="20px;"></a>
+    <a  href="#"><img src="imges/inestgram.png" class="callUs"alt="inestgram" height="10px" width="10px;"></a>
+    <a  href="#"><img src="imges/twiter.png" class="callUs"alt="twiter" height="10px" width="10px;"></a>
+
+
+      </div>
+    </div>
+    <div class="grad">
+    <hr>
+  </div>
+  <a  href="#">  <span class="Nerdo">Nerdo-Ye</span></a>
+  </footer>
+
+</body>
+</html>
+>>>>>>> f1b55307708fff2d6f086d20492a473c5f287a68
