@@ -58,14 +58,14 @@
                 <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
                     <ul class="navbar-nav ">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#steps"> <i class="material-icons float-right  &#xf0c8;" style='background-color: #FCC01A'></i> الرئيسية <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#steps"> <i class="material-icons float-right  &#xf0c8" style='background-color: #FCC01A'></i> الرئيسية <span class="sr-only">(current)</span></a>
                         </li>
                         <!-- in <svg>  you can change color   fill="currentColor"    fill="#e63916"   currentColor mains baisk color of div -->
                             <li class="nav-item dropdown">
                         <a href="#edutrack">                
                         </a>
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="material-icons float-right  &#xf0c8;" style='background-color: #E63916;'></i>جهات تعليم
+                            <i class="material-icons float-right  &#xf0c8" style='background-color: #E63916'></i>جهات تعليم
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#"> جامعات حكومية </a>
@@ -75,10 +75,10 @@
                         </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="material-icons float-right  &#xf0c8;" style='background-color:#a7264d ;'></i>مجالات تعليم
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons float-right  &#xf0c8" style='background-color:#a7264d '></i>مجالات تعليم
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
 
                                 <a class="dropdown-item" href="#">حاسوب</a>
                                 <a class="dropdown-item" href="#">تجارة</a>
@@ -89,11 +89,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#murabaat"> <i class="material-icons float-right  &#xf0c8;" style='background-color: #EA630D;'></i> عن مربعات </a>
+                            <a class="nav-link" href="#murabaat"> <i class="material-icons float-right  &#xf0c8" style='background-color: #EA630D'></i> عن مربعات </a>
                         </li>
                         <!--
          <li class="nav-item ">
-           <a class="nav-link"  href="#call" ><i class='material-icons  float-right  &#xf0c8;' style='background-color: #A01A19;'></i> تواصل معنا </a>
+           <a class="nav-link"  href="#call" ><i class='material-icons  float-right  &#xf0c8' style='background-color: #A01A19'></i> تواصل معنا </a>
          </li>-->
 
                         <li>
@@ -107,28 +107,28 @@
 
                             </form>
                             <script>
-                                var searchInput = $("#search-container"); //الديف الاساسي للمحتو الي عيختفي حسب الدالة
+                                var searchInput = $("#search-container") //الديف الاساسي للمحتو الي عيختفي حسب الدالة
                                 //الدالة تم تخزينها في متغير ,والتي عملها اظهارالمحتوى المخفيفي حالة كان متاح يكون تركيز عليه
 
                                 var showSearchInput = function() {
                                     searchInput.show() // مكانه نفعل دالة تدور الاقونة
                                     if (searchInput.is(":visible")) {
-                                        $("#search").focus();
+                                        $("#search").focus()
                                     }
-                                };
-                                $("#search-btn").hover(showSearchInput); //استدعينا الايقونة الظاهرة عند الهوفر تستدعي الدالة للتحقق
+                                }
+                                $("#search-btn").hover(showSearchInput) //استدعينا الايقونة الظاهرة عند الهوفر تستدعي الدالة للتحقق
 
                                 searchInput.focusout(function(e) { //الغاء التركيز على الدالة
-                                    searchInput.hide(); //;اخفاء المحتوى,  مكانة نعمل دالة ترجع الايقونة لحالتها الطبيعي
+                                    searchInput.hide() //اخفاء المحتوى,  مكانة نعمل دالة ترجع الايقونة لحالتها الطبيعي
 
-                                });
+                                })
                             </script>
 
                         </li>
                         <li>
-                         <a class="nav-link" href="main-dashboard.html">
+                         <a class="nav-link" href="main-dashboard.html"> </a>
                             <button class="btn btn-warnings my-2 my-sm-0" type="submit">ابدأ الان</button>
-                            </a>
+                           
                         </li>
                         <!--   <li>
       <button class="btn btn-outline-success " type="submit"> الدخول</button>
@@ -154,21 +154,21 @@
                     </a>
                     <p class="lead ">اختر المربع المناسب لك ..وطور مهاراتك</p>
                     <div class="card">
-                        <a href="#"> <img src="imges/program.png" class="card-img-top" alt="...">
+                        <a href="#"> <img src="imges/program.png" class="card-img-top" alt="program">
                             <p class="card-text">عرض جميع الجهات التعليمية</p>
                         </a>
                     </div>
                     <div class="card">
-                        <a href="#"> <img src="imges/program.png" class="card-img-top" alt="...">
+                        <a href="#"> <img src="imges/program.png" class="card-img-top" alt="program">
                             <p class="card-text">عرض جميع الجهات التعليمية</p>
                         </a>
                     </div>
 
                 </div>
                 <div class="col-md-6 ">
-                    <img id="study" class="img-responsive" src="imges/study.png" alt="study" />
+                    <img id="study" class="img-responsive" src="imges/study.png" alt="study" >
                     <!-- mayby make an animation   //-->
-                    <!-- its important to write height&width her then in css make width:100%; height:auto; to be responsive -->
+                    <!-- its important to write height&width her then in css make width:100% height:auto to be responsive -->
                 </div>
             </div>
 
@@ -188,10 +188,10 @@
             <h4>خطوات بسيطة للتعلم عن بعد </h4>
             <div class="row">
                 <div class="col-md-3">
-                    <img class="steps" src="imges/step1.png" alt="study" />
+                    <img class="steps" src="imges/step1.png" alt="study" >
                     <div class="step1">
                         <h5 class="step0">اختر الجهة او المجال المناسب </h5>
-                        <img src="imges/avatar1.png" alt="study" />
+                        <img src="imges/avatar1.png" alt="study" >
                         <p> {إِنَّ الدِّينَ عِندَ اللّهِ الإِسْلاَمُ وَمَا اخْتَلَفَ الَّذِينَ أُوْتُواْ الْكِتَابَ إِلاَّ مِن بَعْدِ مَا جَاءهُمُ الْعِلْمُ بَغْياً بَيْنَهُمْ وَمَن يَكْفُرْ بِآيَاتِ اللّهِ فَإِنَّ اللّهِ سَرِيعُ الْحِسَابِ }آل عمران19 {وَمَن
                             يَبْتَغِ غَيْرَ الإِسْلاَمِ دِيناً فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِي الآخِرَةِ مِنَ الْخَاسِرِينَ }آل عمران85
                         </p>
@@ -202,7 +202,7 @@
 
                 <div class="col-md-6 col-12">
 
-                    <img class="stepsd" src="imges/step2d.png" alt="study" />
+                    <img class="stepsd" src="imges/step2d.png" alt="study" >
 
                     <h5 class="step00">طريقتان للتعلم </h5>
 
@@ -231,11 +231,11 @@
 
                 <div class="col-md-3 ">
 
-                    <img class="steps" src="imges/step3.png" alt="study" />
+                    <img class="steps" src="imges/step3.png" alt="study" >
 
                     <div class="step1">
                         <h5 class="step0">الاختبار والحصول على الشهادة </h5>
-                        <img src="imges/certificate.jpg" alt="study" />
+                        <img src="imges/certificate.jpg" alt="study" >
                         <p> {إِنَّ الدِّينَ عِندَ اللّهِ الإِسْلاَمُ وَمَا اخْتَلَفَ الَّذِينَ أُوْتُواْ الْكِتَابَ إِلاَّ مِن بَعْدِ مَا جَاءهُمُ الْعِلْمُ بَغْياً بَيْنَهُمْ وَمَن يَكْفُرْ بِآيَاتِ اللّهِ فَإِنَّ اللّهِ سَرِيعُ الْحِسَابِ }آل عمران19 {وَمَن
                             يَبْتَغِ غَيْرَ الإِسْلاَمِ دِيناً فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِي الآخِرَةِ مِنَ الْخَاسِرِينَ }آل عمران85
                     </div>
@@ -273,7 +273,7 @@
                                     <p class="cardname2"> البرمجة</p>
                                 </a>
                                 <p class="card1-text">عرض جميع الجهات التعليمية</p>
-                                </a>
+                              
                                 <a href="#" class="btn btn-warning ">اضافة</a>
                             </div>
                         </div>
@@ -420,7 +420,7 @@
                     <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-
+                    </a>
                 </div>
             </div>
         </section>
@@ -443,6 +443,7 @@
                             <a href="#">
                                 <p class="card2-text">عرض جميع الجهات</p>
                                 <a href="#" class="btn btn-warning ">اضافة</a>
+                            </a>
                         </div>
 
                         <div class="card2">
@@ -542,8 +543,8 @@
     </div>
     <!--end fullpage -->
     <script type="text/javascript">
-        FastClick.attach(document.body);
-        $('#fullpag').fullpage();
+        FastClick.attach(document.body)
+        $('#fullpag').fullpage()
     </script>
     <!-- start container footer-->
 
@@ -587,9 +588,9 @@
                 <h5>التواصل الإجتماعي</h5>
 
 
-                <a href="#"><img src="imges/facebook.png" class="callUs" alt="facebook" height="20px" width="20px;"></a>
-                <a href="#"><img src="imges/inestgram.png" class="callUs" alt="inestgram" height="10px" width="10px;"></a>
-                <a href="#"><img src="imges/twiter.png" class="callUs" alt="twiter" height="10px" width="10px;"></a>
+                <a href="#"><img src="imges/facebook.png" class="callUs" alt="facebook" height="20px" width="20px"></a>
+                <a href="#"><img src="imges/inestgram.png" class="callUs" alt="inestgram" height="10px" width="10px"></a>
+                <a href="#"><img src="imges/twiter.png" class="callUs" alt="twiter" height="10px" width="10px"></a>
 
 
             </div>
